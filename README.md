@@ -1,7 +1,7 @@
 # junit-log-watcher
-Extension to JUnit 5
+**Extension to JUnit 5 with slf4j-log4j12**
 
-
+**Code**
 
 ```
 @Slf4j
@@ -15,13 +15,11 @@ public class TestLog {
 }
 ```
 
+**Output**
 
-
-Output
-
- INFO [main] (SimpleLoggerExtension.java:53) - START: class com.aktiv.TestLog method: Test test
- INFO [main] (TestLog.java:62) - Some info message
- INFO [main] (SimpleLoggerExtension.java:75) - FINISH SUCCESS: Test test, execution time: 00:00:01.001
+START: class com.aktiv.TestLog method: Test test
+Some info message
+FINISH SUCCESS: Test test, execution time: 00:00:01.001
 
  INFO [main] (SimpleLoggerExtension.java:60) - ===============================================================
  INFO [main] (SimpleLoggerExtension.java:75) - SUMMARY SUCCESS: Test test, execution time: 00:00:01.011
