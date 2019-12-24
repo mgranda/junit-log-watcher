@@ -21,6 +21,6 @@ START: class com.aktiv.TestLog method: Test test
 Some info message
 FINISH SUCCESS: Test test, execution time: 00:00:01.001
 
- INFO [main] (SimpleLoggerExtension.java:60) - ===============================================================
- INFO [main] (SimpleLoggerExtension.java:75) - SUMMARY SUCCESS: Test test, execution time: 00:00:01.011
- INFO [main] (SimpleLoggerExtension.java:62) - ===============================================================
+===============================================================
+SUMMARY SUCCESS: Test test, execution time: 00:00:01.011
+===============================================================
