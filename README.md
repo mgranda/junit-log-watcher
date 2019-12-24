@@ -18,9 +18,15 @@ public class TestLog {
 **Output**
 
 START: class com.aktiv.TestLog method: Test test
+
 Some info message
+
 FINISH SUCCESS: Test test, execution time: 00:00:01.001
 
+
+
 ===============================================================
+
 SUMMARY SUCCESS: Test test, execution time: 00:00:01.011
+
 ===============================================================
